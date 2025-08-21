@@ -54,22 +54,6 @@ AI: "Yes! You were considering a Tesla Model 3 but were unsure about the budget.
 - **L6**: Temporal Tracking (Time-aware events)
 - **L7**: Future Planning (Goals & reminders)
 
-## 🚀 Quick Start
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/pen-memory-engine.git
-cd pen-memory-engine
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Set up your API keys
-cp .env.example .env
-# Edit .env with your API keys
-```
 
 ### Basic Usage
 
@@ -146,48 +130,7 @@ Decision process: "I'm thinking about buying a car - Tesla vs Toyota"
                range vs cost. What made the final decision?"
 ```
 
-## 🔧 Configuration
 
-### Environment Variables
-
-```bash
-# API Configuration
-OPENAI_API_KEY=your_openai_key
-TOGETHER_API_KEY=your_together_key  # For local models
-
-# Memory Settings
-MEMORY_COMPRESSION_LEVEL=high
-MAX_ARCHIVE_SIZE=400kb
-TEMPORAL_AWARENESS=true
-
-# User Preferences
-DEFAULT_PERSONALITY_ANALYSIS=true
-PROACTIVE_MODE=true
-```
-
-### Advanced Configuration
-
-```python
-config = {
-    "memory_layers": {
-        "working_memory_size": 30,  # Last N messages
-        "similarity_threshold": 0.7,
-        "personality_update_frequency": "per_session"
-    },
-    "temporal_intelligence": {
-        "timezone": "auto_detect",
-        "prediction_window": 30,  # days
-        "followup_sensitivity": "medium"
-    },
-    "proactive_behavior": {
-        "enabled": True,
-        "confidence_threshold": 0.8,
-        "max_proactive_per_day": 3
-    }
-}
-
-pen = PenMemory(user_id="user123", config=config)
-```
 
 ## 📊 Performance
 
@@ -196,17 +139,6 @@ pen = PenMemory(user_id="user123", config=config)
 - **Response Time**: 5 seconds (API) / 18 seconds (local)
 - **Memory Usage**: 8GB VRAM for full local deployment
 - **Cost**: ~$0.67 per 1000 messages (Together.ai)
-
-### Benchmark Results
-```
-Traditional Memory Systems vs Pen Memory Engine:
-
-Recall Accuracy:    60% → 95%
-Context Relevance:  40% → 90%
-Temporal Awareness: 0%  → 85%
-Personality Match:  20% → 80%
-Proactive Actions:  0%  → 70%
-```
 
 ## 🆚 Comparison with Alternatives
 
@@ -218,34 +150,6 @@ Proactive Actions:  0%  → 70%
 | **Proactive Behavior** | ✅ Event prediction | ❌ Reactive | ❌ None | ❌ Passive |
 | **Data Efficiency** | ✅ 400KB compressed | ❌ Standard | ❌ High usage | ❌ Unknown |
 | **Open Source** | ✅ AGPL v3 | ✅ Apache | ✅ MIT | ❌ Closed |
-
-## 🛣️ Roadmap
-
-### 🎯 **Phase 1: Core Memory (Current)**
-- [x] 7-layer cognitive architecture
-- [x] Temporal intelligence
-- [x] Personality analysis
-- [x] Proactive interactions
-- [ ] Performance optimization
-- [ ] Enhanced testing suite
-
-### 🎯 **Phase 2: Vision Integration (Q2 2025)**
-- [ ] Visual memory layer
-- [ ] Image-context associations
-- [ ] Visual pattern recognition
-- [ ] Multi-modal conversations
-
-### 🎯 **Phase 3: Advanced Cognition (Q3 2025)**
-- [ ] Emotional state modeling
-- [ ] Complex reasoning chains
-- [ ] Predictive conversation flows
-- [ ] Advanced personality modeling
-
-### 🎯 **Phase 4: Ecosystem (Q4 2025)**
-- [ ] Plugin architecture
-- [ ] Third-party integrations
-- [ ] Mobile SDKs
-- [ ] Cloud service offerings
 
 ## 🤝 Contributing
 
@@ -293,20 +197,14 @@ We chose AGPL v3 to ensure that improvements to Pen Memory Engine benefit the en
 ## 📞 Support & Community
 
 ### 🐛 **Bug Reports & Feature Requests**
-- [GitHub Issues](https://github.com/yourusername/pen-memory-engine/issues)
+- [GitHub Issues](https://github.com/Scarlope/penengine/issues)
 
 ### 💬 **Community Discussion**
-- [GitHub Discussions](https://github.com/yourusername/pen-memory-engine/discussions)
-- [Discord Server](https://discord.gg/pen-memory)
+- [GitHub Discussions](https://github.com/Scarlope/penengine/discussions)
 
-### 📚 **Documentation**
-- [Full Documentation](https://pen-memory-engine.readthedocs.io)
-- [API Reference](https://api.pen-memory-engine.dev)
-- [Cognitive Architecture Guide](https://docs.pen-memory-engine.dev/architecture)
 
 ### 🏢 **Enterprise & Commercial**
-- Email: commercial@pen-memory-engine.dev
-- [Commercial Licensing Info](https://pen-memory-engine.dev/commercial)
+- Email: mirza@scarlope.com
 
 ## 🙏 Acknowledgments
 
