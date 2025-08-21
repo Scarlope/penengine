@@ -140,16 +140,6 @@ Decision process: "I'm thinking about buying a car - Tesla vs Toyota"
 - **Memory Usage**: 8GB VRAM for full local deployment
 - **Cost**: ~$0.67 per 1000 messages (Together.ai)
 
-## 🆚 Comparison with Alternatives
-
-| Feature | Pen Memory Engine | Mem0 | Letta | OpenAI Memory |
-|---------|-------------------|------|-------|---------------|
-| **Cognitive Architecture** | ✅ 7-layer | ❌ 3-layer | ❌ Linear | ❌ Simple |
-| **Temporal Intelligence** | ✅ Real-time | ❌ Basic | ❌ None | ❌ None |
-| **Personality Analysis** | ✅ Deep patterns | ❌ Preferences | ❌ None | ❌ Keywords |
-| **Proactive Behavior** | ✅ Event prediction | ❌ Reactive | ❌ None | ❌ Passive |
-| **Data Efficiency** | ✅ 400KB compressed | ❌ Standard | ❌ High usage | ❌ Unknown |
-| **Open Source** | ✅ AGPL v3 | ✅ Apache | ✅ MIT | ❌ Closed |
 
 ## 🤝 Contributing
 
